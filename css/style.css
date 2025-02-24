@@ -1,0 +1,21 @@
+.flexContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    width: 150px;
+}
+
+.flexItem{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 150px;
+}
+
+.itemSpecial{
+    order: -1;
+}
+
+.flexItem:nth-child(4){
+    order: 1;
+}
